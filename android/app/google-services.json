@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "665670734116",
+    "firebase_url": "https://fluttertutorials-94d75.firebaseio.com",
+    "project_id": "fluttertutorials-94d75",
+    "storage_bucket": "fluttertutorials-94d75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665670734116:android:3503f84ee38be0c15563b1",
+        "android_client_info": {
+          "package_name": "com.example.firebaseloginbloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665670734116-fvc3fv35udj6ui3ku7a6bfvcnlgbvdn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAZEy4OUdjtMim0OSf8LIM2yibl4A6jy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665670734116-fvc3fv35udj6ui3ku7a6bfvcnlgbvdn1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "665670734116-u9vkv01b0tke5h9qf0lpto90kc43bh67.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseloginbloc"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
