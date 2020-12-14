@@ -15,8 +15,8 @@ class AuthenticationBloc extends Bloc<AuthenticationEvent,AuthenticationState> {
   Stream<AuthenticationState> mapEventToState(AuthenticationEvent authenticationEvent) async* {
     // TODO: implement mapEventToState
     if(authenticationEvent is AuthenticationEventStarted) {
-      final isSignedIn = _userRepository.isSignIn();
-      if(isSignedIn == true) {
+      final isSignedIn = await _userRepository.isSignIn();
+      if(isSignedIn) {
         final firebaseUser = await _userRepository.getUser();
         yield AuthenticationStateSuccess(firebaseUser: firebaseUser);
       } else {
